@@ -17,7 +17,7 @@ struct CircleView: View {
     // the UI.
     @State var radius: Double = 10.0
     
-    // MARK: Computed property
+    // MARK: Computed properties
     var area: Double {
         return Double.pi * radius * radius
     }
@@ -48,7 +48,7 @@ struct CircleView: View {
             Text("Area:")
                 .bold()
             
-            Text("314.2 square units")
+            Text("\(area) square units")
             
             Spacer()
             
