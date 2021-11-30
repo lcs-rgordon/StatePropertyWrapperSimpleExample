@@ -48,7 +48,7 @@ struct CircleView: View {
             Text("Area:")
                 .bold()
             
-            Text("\(area) square units")
+            Text("\(String(format: "%.2f", area)) square units")
             
             Spacer()
             
